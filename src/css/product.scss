@@ -1,0 +1,32 @@
+.product{
+  padding: 0 0 208px;
+  &__title{
+    @include text(600,48px,59px,#000);
+    text-align: center;
+    padding-bottom: 36px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 85px;
+  }
+  &__col1{
+    border: 1px solid #000000;
+    padding: 29px 16px 28px;
+  }
+  &__col2{
+    padding: 8px 12px 36px 36px;
+    border: 1px solid #000000;
+  }
+  &__col3{
+    padding: 27px 20px 15px 23px;
+    border: 1px solid #000000;
+  }
+  &__col4{
+    padding: 27px 57px 31px 49px;
+    border: 1px solid #000000;
+  }
+  &__col5{
+    padding: 8px 10px 31px 9px;
+    border: 1px solid #000000;
+  }
+}

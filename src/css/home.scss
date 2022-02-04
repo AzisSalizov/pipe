@@ -1,0 +1,40 @@
+.home{
+  padding: 169px 0 298px;
+  background: url("../images/home/bg.png") center/cover no-repeat;
+  position: relative;
+  &::before{
+    content: '';
+    width: 100%;
+    height: 397px;
+    clip-path: polygon(58% 41%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
+  &__title{
+    @include text(bold,48px,59px,#fff);
+    padding-bottom: 43px;
+  }
+    &__img-first{
+      position: absolute;
+      right: 100px;
+      top: 75.07px;
+      z-index: 3;
+    }
+    &__img-second{
+      position: absolute;
+      right: 380.17px;
+      top: 372px;
+      z-index: 2;
+    }
+    &__img-three{
+      position: absolute;
+      right: 0;
+      top: 154px;
+      height: 542px;
+      transform: rotate(0.79deg);
+    }
+  }
+
+

@@ -1,0 +1,16 @@
+.partner{
+  background: #E5E5E550;
+  padding: 183px 0 229px;
+  &__title{
+    @include text(600, 48px, 59px, #000);
+    text-align: center;
+    padding-bottom: 66px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 70px;
+    &-img{
+    width: 100%;
+    }
+  }
+}

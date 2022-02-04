@@ -1,0 +1,45 @@
+.header {
+  padding: 28px 0 37px;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    column-gap: 43px;
+    list-style-type: none;
+  }
+
+  &__link, &__phone-num {
+    @include text(500, 20px, 24px, #000);
+  }
+
+  &__contacts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+  }
+  &__phone{
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    justify-content: flex-end;
+
+    &-icon{
+      &_phone{
+        width: 40px;
+        height: 21px;
+
+      }
+      &_whats{
+        width: 39px;
+        height: 39px;
+
+      }
+    }
+  }
+
+}

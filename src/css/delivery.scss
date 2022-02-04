@@ -1,0 +1,45 @@
+.delivery {
+  padding-bottom: 183px;
+  background: url("../images/delivery/bg.png") center/cover no-repeat;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    @include text(600, 48px, 59px, #fff);
+    padding: 82px 0 67px;
+  }
+  button{
+    margin: 90px 0;
+  }
+
+  &__box {
+    margin: 0 440px;
+    width: 560px;
+    height: 297px;
+    border: 3px solid #FFFFFF;
+
+
+    &-title {
+      @include text(600, 26px, 32px, #fff);
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 32px;
+      color: #FFFFFF;
+      padding: 54px 33px 0 ;
+    }
+
+    &-subt {
+      @include text(600, 18px, 22px, #fff);
+      padding: 56px 33px 0;
+    }
+    &-subb{
+      @include text(600, 18px, 22px, #fff);
+      padding: 8px 33px 0;
+
+    }
+  }
+}

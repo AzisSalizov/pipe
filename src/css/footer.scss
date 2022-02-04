@@ -1,0 +1,25 @@
+.footer{
+  padding: 37px 0;
+  background: #C4C4C4;
+  &__img{
+    margin-right: 171px;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+  }
+  &__list{
+    display: flex;
+    list-style-type: none;
+    column-gap: 43px;
+    @include text(500,20px,24px,#000);
+  }
+  &__link{
+    color: #000;
+    transition: .3s;
+    &:hover{
+      color: #FFFFFF;
+      transition: .3s;
+    }
+  }
+}
